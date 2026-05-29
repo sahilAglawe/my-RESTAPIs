@@ -1,13 +1,13 @@
-package com.example.myRESTAPIs;
+package example.myRESTAPIs;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MyRestapIsApplication {
+public class MyRestApisApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MyRestapIsApplication.class, args);
+		SpringApplication.run(MyRestApisApplication.class, args);
 	}
-
 }

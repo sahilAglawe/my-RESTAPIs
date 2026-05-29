@@ -1,4 +1,4 @@
-package com.example.myRESTAPIs.DTO;
+package example.myRESTAPIs.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -6,8 +6,7 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class StudentDto {
-  private Long id;
-  private String name;
-  private String email;
-
+    private Long id;
+    private String name;
+    private String email;
 }
